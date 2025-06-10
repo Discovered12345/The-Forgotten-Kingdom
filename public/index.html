@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ancient Nubia - Lost Kingdom of the Nile</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Ancient Nubia</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#timeline" class="nav-link">Timeline</a></li>
+                <li><a href="#kingdoms" class="nav-link">Kingdoms</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#citations" class="nav-link">Citations</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Ancient Nubia</h1>
+            <p class="hero-subtitle">The Lost Kingdom of the Nile</p>
+            <p class="hero-description">Discover the magnificent civilization that ruled the Nile for over 2,000 years</p>
+            <button class="cta-button" onclick="scrollToSection('about')">Explore the Kingdom</button>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Was Ancient Nubia?</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-card location-card">
+                    <div class="card-icon">🌍</div>
+                    <h3>Location</h3>
+                    <p>Nubia was located along the Nile River in what is now southern Egypt and northern Sudan, serving as a crucial corridor between Africa and the Mediterranean world.</p>
+                </div>
+                <div class="about-card culture-card">
+                    <div class="card-icon">🏛️</div>
+                    <h3>Civilization</h3>
+                    <p>A sophisticated civilization that rivaled Egypt, known for their advanced metallurgy, architecture, and powerful female rulers called Kandakes.</p>
+                </div>
+                <div class="about-card legacy-card">
+                    <div class="card-icon">👑</div>
+                    <h3>Legacy</h3>
+                    <p>The "Black Pharaohs" who conquered and ruled Egypt as the 25th Dynasty, reviving Egyptian traditions while maintaining their unique Nubian identity.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="timeline" class="timeline-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Timeline of Nubian History</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-year="3500 BCE">
+                    <div class="timeline-content">
+                        <div class="timeline-year">3500 BCE</div>
+                        <h3>Early Nubian Cultures</h3>
+                        <p>A-Group and C-Group cultures emerge along the Nile, establishing the foundations of Nubian civilization.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="2500 BCE">
+                    <div class="timeline-content">
+                        <div class="timeline-year">2500 BCE</div>
+                        <h3>Kingdom of Kerma</h3>
+                        <p>One of the earliest urban centers in Africa outside Egypt, featuring massive mudbrick structures and extensive trade networks.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="750 BCE">
+                    <div class="timeline-content">
+                        <div class="timeline-year">750 BCE</div>
+                        <h3>Kingdom of Napata</h3>
+                        <p>The rise of the "Black Pharaohs" who conquered Egypt and established the 25th Dynasty.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="300 BCE">
+                    <div class="timeline-content">
+                        <div class="timeline-year">300 BCE</div>
+                        <h3>Kingdom of Meroë</h3>
+                        <p>The iron-working capital of Africa, featuring powerful queens and hundreds of pyramids.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kingdoms Section -->
+    <section id="kingdoms" class="kingdoms">
+        <div class="container">
+            <div class="section-header">
+                <h2>Major Nubian Kingdoms</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="kingdoms-grid">
+                <div class="kingdom-card kerma-card">
+                    <div class="card-header">
+                        <h3>Kerma</h3>
+                        <span class="period">2500-1500 BCE</span>
+                    </div>
+                    <div class="card-content">
+                        <p>One of the earliest urban centers in Africa, known for massive mudbrick structures and the iconic Deffufa temples.</p>
+                        <ul>
+                            <li>Advanced pottery and craftsmanship</li>
+                            <li>Extensive trade with Egypt</li>
+                            <li>Military rival to Egyptian power</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="kingdom-card napata-card">
+                    <div class="card-header">
+                        <h3>Napata</h3>
+                        <span class="period">750-656 BCE</span>
+                    </div>
+                    <div class="card-content">
+                        <p>The "Black Pharaohs" who conquered Egypt and ruled as the 25th Dynasty, reviving Egyptian traditions.</p>
+                        <ul>
+                            <li>Piye - First Nubian pharaoh of Egypt</li>
+                            <li>Taharqa - Greatest builder-king</li>
+                            <li>Revival of pyramid construction</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="kingdom-card meroe-card">
+                    <div class="card-header">
+                        <h3>Meroë</h3>
+                        <span class="period">300 BCE-350 CE</span>
+                    </div>
+                    <div class="card-content">
+                        <p>The iron-smelting capital of Africa, famous for powerful queens and hundreds of steep pyramids.</p>
+                        <ul>
+                            <li>Advanced iron technology</li>
+                            <li>Powerful queen-regents (Kandakes)</li>
+                            <li>Unique Meroitic script</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <div class="section-header">
+                <h2>Cultural Achievements</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="achievements-grid">
+                <div class="achievement-item">
+                    <div class="achievement-icon">🏗️</div>
+                    <h3>Architecture</h3>
+                    <p>Built hundreds of pyramids with unique steep designs, temples, and palaces that still stand today in Sudan.</p>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">⚒️</div>
+                    <h3>Iron Industry</h3>
+                    <p>Meroë was known as the "Birmingham of Africa" for its advanced iron smelting and metallurgical expertise.</p>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">⚱️</div>
+                    <h3>Religion</h3>
+                    <p>Blended Egyptian deities with unique Nubian gods like Apedemak, the lion-headed war god.</p>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">👸</div>
+                    <h3>Royal Women</h3>
+                    <p>Nubian queens (Kandakes) could rule independently, lead armies, and held equal status with kings.</p>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">🛤️</div>
+                    <h3>Trade Networks</h3>
+                    <p>Controlled crucial Nile trade routes, exchanging gold, ivory, ebony, and exotic animals.</p>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">📜</div>
+                    <h3>Writing System</h3>
+                    <p>Developed the Meroitic script, still partially undeciphered, showing intellectual independence.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Citations Section -->
+    <section id="citations" class="citations">
+        <div class="container">
+            <div class="section-header">
+                <h2>Citations & Resources</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="citations-container">
+                <div class="citation-category">
+                    <div class="citation-header" onclick="toggleCitation('books')">
+                        <h3>Academic Books</h3>
+                        <span class="citation-arrow">▼</span>
+                    </div>
+                    <div class="citation-content" id="books">
+                        <div class="citation-item">
+                            <p><strong>Adams, William Y.</strong> (1977). <em>Nubia: Corridor to Africa</em>. Princeton University Press.</p>
+                            <span class="citation-description">Foundational archaeological study of Nubian civilizations from prehistory to Christian Nubia.</span>
+                        </div>
+                        <div class="citation-item">
+                            <p><strong>Török, László.</strong> (1997). <em>The Kingdom of Kush: Handbook of the Napatan-Meroitic Civilization</em>. Brill.</p>
+                            <span class="citation-description">Detailed historical and cultural overview of Nubia's later kingdoms.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="citation-category">
+                    <div class="citation-header" onclick="toggleCitation('museums')">
+                        <h3>Museum Resources</h3>
+                        <span class="citation-arrow">▼</span>
+                    </div>
+                    <div class="citation-content" id="museums">
+                        <div class="citation-item">
+                            <p><strong>The British Museum - Nubia Collection</strong></p>
+                            <a href="https://www.britishmuseum.org/collection/term/x11952" target="_blank">britishmuseum.org/collection/term/x11952</a>
+                        </div>
+                        <div class="citation-item">
+                            <p><strong>The Metropolitan Museum of Art - Nubian Artifacts</strong></p>
+                            <a href="https://www.metmuseum.org/art/collection/search#!/search?material=Nubian" target="_blank">metmuseum.org/art/collection/search</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="citation-category">
+                    <div class="citation-header" onclick="toggleCitation('online')">
+                        <h3>Online Resources</h3>
+                        <span class="citation-arrow">▼</span>
+                    </div>
+                    <div class="citation-content" id="online">
+                        <div class="citation-item">
+                            <p><strong>Khan Academy - Nubia and the Kushite Empire</strong></p>
+                            <a href="https://www.khanacademy.org/humanities/world-history/ancient-medieval/africa-early-civilizations/a/the-kingdom-of-kush" target="_blank">khanacademy.org</a>
+                        </div>
+                        <div class="citation-item">
+                            <p><strong>World History Encyclopedia - Nubia</strong></p>
+                            <a href="https://www.worldhistory.org/Nubia/" target="_blank">worldhistory.org/Nubia</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Meet the Developers</h2>
+                <div class="section-underline"></div>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-avatar">
+                        <img src="https://github.com/Discovered12345.png" alt="Andrew Ma">
+                    </div>
+                    <h3>Andrew Ma</h3>
+                    <p class="contact-role">Project Developer & Web Developer</p>
+                    <div class="contact-links">
+                        <a href="https://github.com/Discovered12345" target="_blank" class="contact-link github">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                            GitHub
+                        </a>
+                        <a href="https://devpost.com/andrewm2010ca" target="_blank" class="contact-link devpost">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M6.002 1.61 0 12.004 6.002 22.39h11.996L24 12.004 17.998 1.61H6.002zm1.593 4.084h3.947c3.605 0 6.276 1.695 6.276 6.31 0 4.436-3.21 6.302-6.456 6.302H7.595V5.694zm2.938 2.418v7.714h1.906c2.59 0 3.711-1.398 3.711-3.857 0-2.459-1.121-3.857-3.711-3.857h-1.906z"/>
+                            </svg>
+                            Devpost
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-avatar">
+                        <img src="https://github.com/avikroytech.png" alt="Avik Roy">
+                    </div>
+                    <h3>Avik Roy</h3>
+                    <p class="contact-role">Project Developer & Researcher</p>
+                    <div class="contact-links">
+                        <a href="https://github.com/avikroytech" target="_blank" class="contact-link github">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                            GitHub
+                        </a>
+                        <a href="https://devpost.com/avikroytech" target="_blank" class="contact-link devpost">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M6.002 1.61 0 12.004 6.002 22.39h11.996L24 12.004 17.998 1.61H6.002zm1.593 4.084h3.947c3.605 0 6.276 1.695 6.276 6.31 0 4.436-3.21 6.302-6.456 6.302H7.595V5.694zm2.938 2.418v7.714h1.906c2.59 0 3.711-1.398 3.711-3.857 0-2.459-1.121-3.857-3.711-3.857h-1.906z"/>
+                            </svg>
+                            Devpost
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
