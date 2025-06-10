@@ -61,9 +61,10 @@ This website exists to:
 
 Nubia’s story is not just African history — it is **world history**. This website is a small contribution toward restoring that truth to the global narrative.
 
+<div align="center">
+
 ## Website Images
 
-<div align="center">
 ## Landing Section
 ![land](https://github.com/user-attachments/assets/cd98fe04-10bf-4225-b402-cd98da772d57)
 
