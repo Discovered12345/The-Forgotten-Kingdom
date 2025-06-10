@@ -60,3 +60,19 @@ This website exists to:
 ## ✊ Final Note
 
 Nubia’s story is not just African history — it is **world history**. This website is a small contribution toward restoring that truth to the global narrative.
+
+## Website Images
+**Landing Section**
+![land](https://github.com/user-attachments/assets/cd98fe04-10bf-4225-b402-cd98da772d57)
+
+**Info Section**
+![info](https://github.com/user-attachments/assets/dfabebac-d968-4aa8-ab0d-e75502eb2256)
+
+**Kingdom Section**
+![king](https://github.com/user-attachments/assets/aa34cfb9-d68c-4ba8-8730-1f822b7cf8d2)
+
+**Timeline Section**
+![time](https://github.com/user-attachments/assets/05fc7805-6c1b-493a-a3d2-affe460d12ec)
+
+**References Section**
+![ref](https://github.com/user-attachments/assets/f2391f6d-55e9-41e6-a522-e9106d92c0aa)
