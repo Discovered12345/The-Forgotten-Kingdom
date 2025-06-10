@@ -220,19 +220,8 @@ function addHoverEffects() {
 // Initialize hover effects
 addHoverEffects();
 
-// Parallax effect for multiple elements
-function parallaxElements() {
-    const scrolled = window.pageYOffset;
-    const parallaxElements = document.querySelectorAll('.about-card, .kingdom-card');
-    
-    parallaxElements.forEach((element, index) => {
-        const speed = 0.1 + (index * 0.05);
-        const yPos = -(scrolled * speed);
-        element.style.transform = `translateY(${yPos}px)`;
-    });
-}
-
-window.addEventListener('scroll', parallaxElements);
+// Remove problematic parallax effect for kingdom cards
+// The parallax effect was causing the cards to move up and down during scroll
 
 // Add loading animation
 window.addEventListener('load', () => {
